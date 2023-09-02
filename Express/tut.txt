@@ -1,0 +1,18 @@
+What is the difference betweeen a library and a framework?
+- Both are pre-written codes but library is used for a specific task whereas framwork is used to design a whole application
+-Express is a framework of node JS which is used for server side programming, that helps us to make web applications.
+-Express is used for four works on the server side.
+1-Listening for incoming requests
+2-Parsing 
+3-Match responses with routes
+4-Send responses
+-------------------------------------------------------------------------------------------
+
+
+
+! We can use the npm to install express, and later we are going to make a js file a server.
+----------------------------------!Refer index.js!-------------------------------------
+ Nodemon - Refreshes server after every save 
+ Recommended to install globally
+----------------------------------!Refer index.js!-------------------------------------
+

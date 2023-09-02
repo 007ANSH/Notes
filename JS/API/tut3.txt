@@ -1,0 +1,24 @@
+We are gonna use Hoppscotch.io and postman as API testing.
+
+_____________________________________________________________________________________
+
+AJAX (Asynchronous JavaScript and XML)
+It is a process to call to a API Asynchronously
+It is a Asynchronous process because we don't wait for the API to send the response
+we call these call as ajax calls.
+
+______________________________________________________________________________________
+
+There are https verbs() for API 
+-GET 
+-PUT
+-DELETE
+______________________________________________________________________________________
+
+STATUS CODE
+200- GOOD
+404- NOT FOUND
+400- BAD REQUEST
+500- INTERNAL SERVER ERROR
+______________________________________________________________________________________
+

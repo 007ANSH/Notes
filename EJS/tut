@@ -1,0 +1,17 @@
+-----------------------------------------------------------------------------------------------------------------
+EJS
+-Embedded JavaScript Template
+-Express internally requires EJS
+-There should be a views dir where all the ejs file should be stored to later render on the server
+
+-------------------------------REFER index.js-------------------------------------------
+
+-Now there is a problem that if we run our server from any other directory the express will start looking for view folder in that directory but obviously can't find so there is solution for that using path package
+
+
+-----------------------------------------------------------------------------------------------------
+INTERPOLATION SYNTAX-
+-Embedding information into the markup text
+-This would dynamically calculate the HTML than convert it into a string then add it to our page 
+-EJS.co website for other syntax
+

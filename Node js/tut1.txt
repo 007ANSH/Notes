@@ -1,0 +1,41 @@
+What is node JS?
+- It is a javaScript runtime environment
+-It is used for sever side programming
+-------------------------------------------------------------------------------------------
+WE CAN MAKE OUR CMD A BROWSER CONSOLE BY TYPING NODE IN THE CMD AND AFTER THAT IT IS GOING TO ACT SAME AS THE BROWSER CONSOLE.(kyuki node provides a runtime environment for javaScript)
+-------------------------------------------------------------------------------------------
+process-
+It is a object which provides information and control over the current Node.js process.
+process.argv-
+returns an array containing the arguments which are provided during the execution of the program.
+-------------------------------------------------------------------------------------------
+module.exports()
+whatever you write inside the parenthesis in the module.export( ) function and add it to a file 
+then that file will export the data what is inside the parenthesis to the file which imports it using the "require"
+-------------------------------------------------------------------------------------------
+We discussed exporting one file to another
+Now we will discuss how to export file to a directory
+-------------------------------------------------------------------------------------------
+Make a directory and import every file in that directory to index.js file require function on the mention of directory will automatically import the index.js file.
+-------------------------------------------------------------------------------------------
+NPM
+node package manager-library of packages.
+package- Internet pe kisi or ka likha hua code jise hum use krne waale he
+! Express and React JS both are packages
+! node_modules contains all the dependencies of your project
+! package-lock.json records all the version and subversions of all the dependencies.
+! package.json can help in case our node_modules get deleted just type npm install in cmd and all the dependencies will automatically start downloading
+-------------------------------------------------------------------------------------------
+npm install init(initializing)
+-------------------------------------------------------------------------------------------
+npm install -g 
+(to install packages globally)
+but for that we need administrative permission----> sudo chown -R $USER....
+then npm link <name>
+-------------------------------------------------------------------------------------------
+Now we use import instead of require
+import {sum} form "./math.js"
+-we write full file name inside import
+---> but to use that we need to add type:module in our package.json
+
+

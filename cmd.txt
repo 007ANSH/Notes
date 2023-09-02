@@ -1,0 +1,16 @@
+$ start text.txt
+- This is used to create a file with txt extension
+$ start text.txt
+-this is to open that file 
+$ code text.txt
+-this is to open that file in vs code
+$ pwd
+-Prints working directory
+$ rm test.txt
+-remove 
+$ rmdir new
+-removes directory
+$rm -rf folder
+-remove with force
+$ ls --help
+-for additional flags

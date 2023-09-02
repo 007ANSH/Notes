@@ -1,0 +1,4 @@
+-API acts as a waiter in between user(customer) and Kitchen (server).
+-API sends response in form of JSON(JavaScript Object Notation).
+- JSON is Just a format
+-JSON does not supports undefined.

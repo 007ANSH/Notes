@@ -1,0 +1,9 @@
+/*
+Java Script is a single threaded 
+which means it can do one task at a time 
+but this does not mean that if 
+for example a API is taking long for responding to the js file then the js file will wait for it this will take much time 
+like set timeout 
+so the thing is chrome 
+
+*/

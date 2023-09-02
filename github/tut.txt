@@ -1,0 +1,52 @@
+git config user.name "Ansh Gusain"
+git config user.email "anshgusain08@gmail.com"
+-----------------------------------------------------------------------------
+# USING CLONE COMMAND
+git clone link
+#USING ADD COMMAND
+git add file
+git add . // '.' represents everyone
+#USING COMMIT (record the changes) COMMAND
+git commit -m "message"
+git commit -am to add and commit with single command
+#USING PUSH COMMAND (sending local repo to online github)
+git push origin main
+-------------------------------------------------------------------------------
+# TO MAKE A DIRECTORY GIT 
+git init
+#CONNECTING FILE FROM GITHUB TO LOCAL HOST
+git remote add origin -link-
+git remot e -v           // to VERIFY remote 
+git branch              // to check branch
+git branch -M main      // to rename branch
+git push -u origin main // to just type git push later 
+
+#WORK FLOW
+add > commit > push
+--------------------------------------------------------------------------------------------------
+
+git branch ( to get name)
+git branch -m <new name> (rename branch)
+git checkout -b <new branch name>
+git checkout <branch> ( to navigate)
+git checkout -d <branch>
+
+-------------------------------------------------------------------------------------------
+In new branch before git push you need to set upstream branch
+
+--------------------------------------------------------------------------------------------
+git diff ( to compare two branches)
+git merge <branch-name> (to merger two branch) OR Create a pull request     
+----------------------------------------------------------------------------------------------
+#TO TRANSFER CHANGES FROM INTERNET REPO TO THE LOCAL REPO WE USE PULL REQUEST
+git pull origin main
+----------------------------------------------------------------------------------------------
+git reset <file name> (to undo a added file)
+git reset ( to undo the most recently added file)
+git reset HEAD~1 (to reset the most recent commit)
+git log ( to obtain hash for a commit )
+git reset <commit hash>
+git reset --hard <commit hash>
+------------------------------------------------------------------------------------------------
+#FORKING
+

@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "figlet": "^1.6.0",
+    "init": "^0.1.2"
+  },
+  "name": "figlet",
+  "version": "1.0.0",
+  "main": "fig.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": ""
+}
